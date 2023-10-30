@@ -16,11 +16,11 @@ export const login = (loginId: string, password: string) => {
           Authorization: `Bearer ${response.body.token}`,
         },
       }).then((currentUserResponse: any) => {
-        // cy.log(currentUserResponse);
+        
         const userStr = localStorage.setItem('user', JSON.stringify(currentUserResponse.body));
         const user = currentUserResponse.body;
         const role = user.authorities[0].authority;
-        // cy.log(role);
+        
         if (role == 'ROLE_ADMIN') {
           cy.visit('http://localhost:4200/admin-dashboard')
         }
