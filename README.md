@@ -1,18 +1,27 @@
-# Angular-Movie-Booking-App-END2END-
-Angular movie Booking app with End 2 End testing using CYPRESS
+# MovieBooking
 
-# All test case passing
-![image](https://github.com/y4yuvraj/Angular-Movie-Booking-App-END2END-/assets/46413950/bb1fecfd-2079-4c64-bc03-d0feaadc5e14)
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
 
-![image](https://github.com/y4yuvraj/Angular-Movie-Booking-App-END2END-/assets/46413950/51d96370-a173-47af-81a1-644528d545ef)
+## Development server
 
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-This is Frontend Part of Full Stack Java Project which i got to work on, It was challenging and fun project.
+## Code scaffolding
 
-# Over view
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-![image](https://github.com/y4yuvraj/Angular-Movie-Booking-App-END2END-/assets/46413950/a7c6cf92-1b18-4537-bc53-fc3946af4c8d)
+## Build
 
-![image](https://github.com/y4yuvraj/Angular-Movie-Booking-App-END2END-/assets/46413950/9d4c4c2b-5cbd-4bb5-aece-63a2bca75c7f)
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-![image](https://github.com/y4yuvraj/Angular-Movie-Booking-App-END2END-/assets/46413950/82aaf1ec-9623-4fea-9805-c97f5c8b8ff8)
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
